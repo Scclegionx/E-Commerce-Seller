@@ -1,0 +1,157 @@
+/* src/components/Clothes.css */
+
+.clothes-container {
+    width: 80%;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.create-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.create-btn:hover {
+    background-color: #45a049;
+}
+
+.clothes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.clothes-table th, .clothes-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.clothes-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.clothes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.clothes-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    margin: 0 0.25rem;
+    padding: 0.3rem 0.6rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.detail-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.detail-btn:hover {
+    background-color: #1976D2;
+}
+
+.edit-btn {
+    background-color: #FFC107;
+    color: black;
+}
+
+.edit-btn:hover {
+    background-color: #FFA000;
+}
+
+.delete-btn {
+    background-color: #F44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #D32F2F;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination button {
+    background-color: #008CBA;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.pagination button:hover {
+    background-color: #005f73;
+}
+
+.pagination span {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+
+/* clothes detail  */
+
+.clothes-detail-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clothes-detail-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+.clothes-detail-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 8px 12px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.clothes-detail-container button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.clothes-detail-container button:hover {
+    background: #0056b3;
+}
